@@ -15,6 +15,8 @@
 		A2C64EAF1ED68AA300CD8693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C64EAD1ED68AA300CD8693 /* LaunchScreen.storyboard */; };
 		A2C64EBA1ED68AA300CD8693 /* ScaleImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C64EB91ED68AA300CD8693 /* ScaleImageTests.m */; };
 		A2C64EC51ED68AA300CD8693 /* ScaleImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C64EC41ED68AA300CD8693 /* ScaleImageUITests.m */; };
+		A2C64ED61ED68AC900CD8693 /* PhotoScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C64ED31ED68AC900CD8693 /* PhotoScaleView.m */; };
+		A2C64ED71ED68AC900CD8693 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C64ED51ED68AC900CD8693 /* UIViewAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A2C64EC01ED68AA300CD8693 /* ScaleImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaleImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C64EC41ED68AA300CD8693 /* ScaleImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaleImageUITests.m; sourceTree = "<group>"; };
 		A2C64EC61ED68AA300CD8693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2C64ED21ED68AC900CD8693 /* PhotoScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoScaleView.h; sourceTree = "<group>"; };
+		A2C64ED31ED68AC900CD8693 /* PhotoScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoScaleView.m; sourceTree = "<group>"; };
+		A2C64ED41ED68AC900CD8693 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		A2C64ED51ED68AC900CD8693 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		A2C64E9E1ED68AA300CD8693 /* ScaleImage */ = {
 			isa = PBXGroup;
 			children = (
+				A2C64ED21ED68AC900CD8693 /* PhotoScaleView.h */,
+				A2C64ED31ED68AC900CD8693 /* PhotoScaleView.m */,
+				A2C64ED41ED68AC900CD8693 /* UIViewAdditions.h */,
+				A2C64ED51ED68AC900CD8693 /* UIViewAdditions.m */,
 				A2C64EA21ED68AA300CD8693 /* AppDelegate.h */,
 				A2C64EA31ED68AA300CD8693 /* AppDelegate.m */,
 				A2C64EA51ED68AA300CD8693 /* ViewController.h */,
@@ -273,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C64ED61ED68AC900CD8693 /* PhotoScaleView.m in Sources */,
+				A2C64ED71ED68AC900CD8693 /* UIViewAdditions.m in Sources */,
 				A2C64EA71ED68AA300CD8693 /* ViewController.m in Sources */,
 				A2C64EA41ED68AA300CD8693 /* AppDelegate.m in Sources */,
 				A2C64EA11ED68AA300CD8693 /* main.m in Sources */,
